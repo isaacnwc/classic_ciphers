@@ -17,6 +17,7 @@ def cipher_atbash(text: str) -> str:
 
 if __name__ == "__main__":
     print(cipher_atbash("ABC"))
+    print(cipher_atbash("abc"))
 
 
 
