@@ -11,6 +11,8 @@ def cipher_rot13(text: str) -> str:
             )
     return text.translate(translation_table)
 
+#Rot13 is basically caesar cipher with an offset of 13.
+
 
 
 if __name__ == "__main__" :
